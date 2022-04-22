@@ -1,5 +1,5 @@
 # Hassle-free Macbook Camera Driver for Fedora Linux
-This project is simply a hassle-free version of the <b>Apple Facetime HD</b> camera driver provided by [@patjak](https://github.com/patjak/facetimehd). The installation script is quite simple, you should be able to modify it for other Linux distributions easily. Although the `facetimehd-master.zip` is not required, it is provided in case the upstream project disappears (contains the source codes of the driver). SHA256 hashes of the binary files provided in this repository should match the hashes provided by the upstream project.
+This project is simply a hassle-free version of the <b>Apple Facetime HD</b> camera driver provided by [@patjak](https://github.com/patjak/facetimehd). The installation script is quite simple, you should be able to modify it for other Linux distributions easily. Although the `facetimehd-master.zip` is not required, it is provided in case the upstream project disappears (contains the source codes of the driver). SHA256 hashes of the binary files provided in this repository should match the hashes provided by the upstream project. The driver should automatically rebuild itself every time the Linux kernel is updated (thanks to the dkms).
 ## How to install
 Type in the following commands into your terminal window and then <i>reboot</i> your computer:
 ```
